@@ -1,0 +1,127 @@
+.navbar-inverse{
+    background-color: transparent;
+    background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
+    border-color: transparent;
+}
+
+.navbar {
+    border-radius: 0px;
+    height: 100px;
+}
+
+
+.container-fluid {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.sec1{
+    background-image: url(images/sec1-background.png);
+    height:100%;
+}
+
+.overlap-content-1{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 1%
+}
+
+.learn-sec{
+    background-image: url(images/learn-sec-background.png);
+}
+
+.learn-title{
+    text-align: center;
+    font-family: 'IM Fell English', serif;
+    color:white;
+}
+
+.overlap-content-2{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(30, 1fr);
+    grid-column-gap: 1%
+}
+
+
+.square-1{
+    grid-column: 1 / span 5;
+    grid-row: 4 / span 4;
+}
+
+.large-image-1{
+    grid-column: 5 / span 6;
+    grid-row: 2 / span 6;
+}
+
+.small-image-1{
+    grid-column: 4 / span 4;
+    grid-row: 6 / span 4;
+}
+
+.title-1{
+    font-family: 'IM Fell English', serif;
+    color: white;
+    font-style: italic;
+    transform: rotate(270deg);
+    width: 200%;
+    grid-column: 1 / span 1;
+    grid-row: 4 / span 4;
+}
+
+.square-2{
+    grid-column: 8 / span 5;
+    grid-row: 14 / span 4;
+}
+
+.large-image-2{
+    grid-column: 3 / span 6;
+    grid-row: 12 / span 6;
+}
+
+.small-image-2{
+    grid-column: 7 / span 4;
+    grid-row: 16 / span 4;
+}
+
+.title-2{
+    font-family: 'IM Fell English', serif;
+    color: white;
+    font-style: italic;
+    transform: rotate(270deg);
+    width: 200%;
+    grid-column: 12 / span 1;
+    grid-row: 14 / span 4;
+}
+
+.square-3{
+    grid-column: 1 / span 5;
+    grid-row: 24 / span 4;
+}
+
+.large-image-3{
+    grid-column: 5 / span 6;
+    grid-row: 22 / span 6;
+}
+
+.small-image-3{
+    grid-column: 4 / span 4;
+    grid-row: 26 / span 4;
+}
+
+.title-3{
+    font-family: 'IM Fell English', serif;
+    color: white;
+    font-style: italic;
+    transform: rotate(270deg);
+    width: 200%;
+    grid-column: 1 / span 1;
+    grid-row: 24 / span 4;
+}
+
+.titles{
+    margin-top: 5%;
+    margin-bottom:5%;
+    float:right;
+}
