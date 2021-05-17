@@ -350,14 +350,13 @@ a, a:hover, a:focus, a:active {
 }
 
 .button-footer{
-    font-size: 0.8em;
+    font-size: 0.6em;
 }
 
 .input-footer{
     display: block;
     width: 75%;
-    height: 0%
-    font-size: 14px;
+    height: 0%;
     color: #555;
     background-color: #fff;
 }
@@ -366,6 +365,7 @@ a, a:hover, a:focus, a:active {
     margin-top: 100px;
     align-content: center;
 }
+
 
 
 
@@ -439,6 +439,11 @@ a, a:hover, a:focus, a:active {
     grid-row: 5 / span 1;
 }
 
+.button-stories-1{
+    grid-column: 2 / span 2;
+    grid-row: 6 / span 1;
+}
+
 .square-stories-2 {
     grid-column: 5 /span 8;
     grid-row: 11 / span 3;
@@ -461,6 +466,11 @@ a, a:hover, a:focus, a:active {
     grid-row: 12 / span 1;
 }
 
+.button-stories-2{
+    grid-column: 6 / span 2;
+    grid-row: 13 / span 1;
+}
+
 .square-stories-3 {
     grid-column: 1 /span 8;
     grid-row: 18 / span 3;
@@ -481,6 +491,11 @@ a, a:hover, a:focus, a:active {
 .text-stories-3 {
     grid-column: 2 / span 6;
     grid-row: 19 / span 1;
+}
+
+.button-stories-3{
+    grid-column: 2 / span 2;
+    grid-row: 20 / span 1;
 }
 
 
@@ -548,7 +563,7 @@ a, a:hover, a:focus, a:active {
 .square-tours-1 {
     grid-column: 1 /span 8;
     grid-row: 1 / span 5;
-    padding-top: 5%;
+    margin-top: 5%;
 }
 
 .image-tours-1 {
@@ -564,14 +579,22 @@ a, a:hover, a:focus, a:active {
 .text-tours-1 {
     grid-column: 1 / span 5;
     grid-row: 2 / span 1;
-    padding-left: 10%;
+    margin-left: 10%;
 }
 
 .time-tours-1 {
     grid-column: 1 / span 5;
     grid-row: 3 / span 1;
-    padding-left: 10%;
+    margin-left: 10%;
 }
+
+.button-tours-1{
+    grid-column: 1 / span 3;
+    grid-row: 4 / span 1;
+    margin-right: 32%;
+    margin-top: 10%;
+}
+
 
 .square-tours-2 {
     grid-column: 1 /span 8;
@@ -599,6 +622,13 @@ a, a:hover, a:focus, a:active {
     grid-column: 1 / span 5;
     grid-row: 10 / span 1;
     padding-left: 10%;
+}
+
+.button-tours-2{
+    grid-column: 1 / span 3;
+    grid-row: 11 / span 1;
+    margin-right: 32%;
+    margin-top: 10%;
 }
 
 .square-tours-3 {
@@ -629,6 +659,13 @@ a, a:hover, a:focus, a:active {
     padding-left: 10%;
 }
 
+.button-tours-3{
+    grid-column: 1 / span 3;
+    grid-row: 18 / span 1;
+    margin-right: 32%;
+    margin-top: 10%;
+}
+
 .square-tours-4 {
     grid-column: 1 /span 8;
     grid-row: 22 / span 5;
@@ -655,4 +692,11 @@ a, a:hover, a:focus, a:active {
     grid-column: 1 / span 5;
     grid-row: 24 / span 1;
     padding-left: 10%;
+}
+
+.button-tours-4{
+    grid-column: 1 / span 3;
+    grid-row: 25 / span 1;
+    margin-right: 32%;
+    margin-top: 10%;
 }
