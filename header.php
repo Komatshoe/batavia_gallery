@@ -5,9 +5,7 @@
     <title>Bootstrap Example</title>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/_/img/favicon.ico">
-    
+        
     <title><?php
 		      if (function_exists('is_tag') && is_tag()) {
 		         single_tag_title("Tag Archive for &quot;"); echo '&quot; - '; }
@@ -28,10 +26,25 @@
 		   ?>
 </title>
     
-    <!-- Boostrap -->
-    \
+    	<meta name="description" content="<?php bloginfo('description'); ?>">
+
+
+<!—Viewport responsive  -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">		
+	
+<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/_/img/favicon.ico">
+	<!-- This is the traditional favicon.
+		 - size: 16x16 or 32x32
+		 - transparency is OK -->
+    <!—Google fonts  -->
+        
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@1&display=swap" rel="stylesheet">
+    
 <?php wp_head(); ?>
-    </head>
+</head>
 
 <body>
     <header class="container-fluid sec1">
@@ -44,7 +57,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <img class="navbar-brand" src="images/logo.png">
+                    <img class="navbar-brand" src="images/logo.png" alt="batavia-gallery-logo">
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
 
@@ -64,7 +77,7 @@
         <div class="container-fluid hero-sec">
             <div class="home-overlap-1">
 
-                <img class="img-responsive square-hero" src="http://206.189.45.97/~mesh14/wp-content/themes/batavia_gallery/images/square-2.png">
+                <img class="img-responsive square-hero" src="http://206.189.45.97/~mesh14/wp-content/themes/batavia_gallery/images/square-2.png" alt="ripped-brown-square">
 
                 <h1 class="title-hero">Surviving the Batavia</h1>
 
