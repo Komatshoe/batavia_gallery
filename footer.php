@@ -38,10 +38,10 @@
 
 
                 <div class="container-fluid col-md-6 logo foot">
-                    <img class="col-xs-3 logos img-responsive" src="http://206.189.45.97/~mesh14/wp-content/themes/batavia_gallery/images/facebook.png">
-                    <img class="col-xs-3 logos img-responsive" src="http://206.189.45.97/~mesh14/wp-content/themes/batavia_gallery/images/instagram.png">
-                    <img class="col-xs-3 logos img-responsive" src="http://206.189.45.97/~mesh14/wp-content/themes/batavia_gallery/images/youtube.png">
-                    <img class="col-xs-3 logos img-responsive" src="http://206.189.45.97/~mesh14/wp-content/themes/batavia_gallery/images/twitter.png">
+                    <img class="col-xs-3 logos img-responsive" src="http://206.189.45.97/~mesh14/wp-content/themes/batavia_gallery/images/facebook.png" alt="facebook-logo">
+                    <img class="col-xs-3 logos img-responsive" src="http://206.189.45.97/~mesh14/wp-content/themes/batavia_gallery/images/instagram.png" alt="instagram-logo">
+                    <img class="col-xs-3 logos img-responsive" src="http://206.189.45.97/~mesh14/wp-content/themes/batavia_gallery/images/youtube.png" alt="youtube-logo">
+                    <img class="col-xs-3 logos img-responsive" src="http://206.189.45.97/~mesh14/wp-content/themes/batavia_gallery/images/twitter.png" alt="twitter-logo">
                 </div>
 
                 <div class="container-fluid col-md-6 foot">
