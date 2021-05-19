@@ -37,6 +37,10 @@ a, a:hover, a:focus, a:active {
       color: white;
 }
 
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
 
 .title-text {
     font-family: 'IM Fell English', serif;
@@ -342,19 +346,15 @@ a, a:hover, a:focus, a:active {
 
 .logos {
     align-content: center;
-    width: 15%;
+    width: 25%;
 }
 
 .button-footer{
-    font-size: 0.6em;
+    font-size: 1em;
 }
 
 .input-footer{
-    display: block;
-    width: 75%;
-    height: 0%;
-    color: #555;
-    background-color: #fff;
+    padding-left: 10%;
 }
 
 .foot{
@@ -496,6 +496,8 @@ a, a:hover, a:focus, a:active {
 
 
 
+
+
 .tours-sec-hero {
     background-image: url(images/tour-sec-background.png);
     background-size: cover;
@@ -543,6 +545,7 @@ a, a:hover, a:focus, a:active {
     grid-column: 2 / span 5;
     grid-row: 2 / span 3;
     padding: 10%;
+    margin-top: 5%;
 }
 
 .tours-sec {
@@ -552,7 +555,7 @@ a, a:hover, a:focus, a:active {
 .tours-overlap-2 {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(30, 1fr);
+    grid-template-rows: repeat(27, 1fr);
     grid-column-gap: 1%;
 }
 
@@ -595,7 +598,7 @@ a, a:hover, a:focus, a:active {
 .square-tours-2 {
     grid-column: 1 /span 8;
     grid-row: 8 / span 5;
-    padding-top: 5%;
+    margin-top: 5%;
 }
 
 .image-tours-2 {
@@ -630,7 +633,7 @@ a, a:hover, a:focus, a:active {
 .square-tours-3 {
     grid-column: 1 /span 8;
     grid-row: 15 / span 5;
-    padding-top: 5%;
+    margin-top: 5%;
 }
 
 .image-tours-3 {
@@ -665,7 +668,7 @@ a, a:hover, a:focus, a:active {
 .square-tours-4 {
     grid-column: 1 /span 8;
     grid-row: 22 / span 5;
-    padding-top: 5%;
+    margin-top: 5%;
 }
 
 .image-tours-4 {
@@ -811,7 +814,22 @@ a, a:hover, a:focus, a:active {
         margin-left: 10%;
         font-size: 1.5em
     }
-
+    
+    .title-stories{
+        font-size: 4em;
+    }
+    
+    .text-stories {
+        margin-top: %;
+    }
+    
+    .title-tours {
+        font-size: 4em;
+    }
+    
+    .text-tours {
+        margin-top: 0%;
+    }
 }
 
 @media (min-width: 992px){
@@ -821,10 +839,30 @@ a, a:hover, a:focus, a:active {
     
 }
 
+@media (max-width: 912px){
+    .title-tours-1{
+        grid-column: 1 / span 12
+    }
+    
+    .title-tours-2{
+        grid-column: 1 / span 12
+    }
+    
+    .title-tours-3{
+        grid-column: 1 / span 12
+    }
+    
+    .title-tours-4{
+        grid-column: 1 / span 12
+    }
+}
+
+
+
 @media (max-width: 900px){
    
     .body-text {
-        font-size: 1.5em;
+        font-size: em;
     }
     
     .title-text{
@@ -1010,10 +1048,207 @@ a, a:hover, a:focus, a:active {
     .button-support{
         grid-column: 2 / span 4;
         grid-row: 3 / span 1;
-    
     }
     
+    .square-stories{
+        grid-column: 2 / span 7
+    }    
+
+    .text-stories{
+        grid-column: 2 / span 7;
+    }
     
+    .stories-overlap-2 {
+        grid-template-columns: repeat(8, 1fr);
+    }
+    
+    .square-stories-2 {
+        grid-column: 1 /span 8;
+    }
+
+    .image-stories-2 {
+        grid-column: 1 / span 8;    
+    }
+
+    .title-stories-2 {
+        grid-column: 2 / span 6;
+    }
+
+    .text-stories-2 {
+        grid-column: 2 / span 6;
+    }
+
+    .button-stories-2{
+        grid-column: 2 / span 3;
+    }
+    
+    .button-stories-1{
+        grid-column: 2 / span 3;
+    }
+    
+    .button-stories-3{
+        grid-column: 2 / span 3;
+    }
+
+}
+
+
+@media (max-width: 870px){
+    .tours-overlap-2 {
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(33, 1fr);
+    }
+
+    .square-tours-1 {
+        grid-column: 1 /span 6;
+        margin-top: 7.5%;
+    }
+
+    .image-tours-1 {
+        grid-column: 1 / span 6;
+        grid-row: 4 / span 4;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .title-tours-1 {
+        grid-column: 1 / span 6;
+        grid-row: 1 / span 1;
+    }
+
+    .text-tours-1 {
+        grid-column: 1 / span 6;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+
+    .button-tours-1{
+        grid-column: 4 / span 3;
+        grid-row: 3 / span 1;
+        margin-right: 32%;
+        margin-top: 0%;
+    }
+
+
+    .square-tours-2 {
+        grid-column: 1 /span 6;
+        grid-row: 9 / span 5;
+        margin-top: 7.5%;
+    }
+
+    .image-tours-2 {
+        grid-column: 1 / span 6;
+        grid-row: 12 / span 5;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .title-tours-2 {
+        grid-column: 1 / span 6;
+        grid-row: 9 / span 1;
+    }
+
+    .text-tours-2 {
+        grid-column: 1 / span 6;
+        grid-row: 10 / span 1;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .time-tours-2 {
+        grid-row: 11 / span 1;
+    }
+
+    .button-tours-2{
+        grid-column: 4 / span 3;
+        grid-row: 11 / span 1;
+        margin-top: 0%;
+    }
+
+    .square-tours-3 {
+        grid-column: 1 /span 6;
+        grid-row: 18 / span 5;
+        margin-top: 7.5%;
+    }
+
+    .image-tours-3 {
+        grid-column: 1 / span 6;
+        grid-row: 21 / span 5;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .title-tours-3 {
+        grid-column: 1 / span 6;
+        grid-row: 18 / span 1;
+    }
+
+    .text-tours-3 {
+        grid-column: 1 / span 6;
+        grid-row: 19 / span 1;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .time-tours-3 {
+        grid-column: 1 / span 5;
+        grid-row: 20 / span 1;
+        padding-left: 10%;
+    }
+
+    .button-tours-3{
+        grid-column: 4 / span 3;
+        grid-row: 20 / span 1;
+        margin-top: 0%;
+    }
+
+    .square-tours-4 {
+        grid-column: 1 /span 6;
+        grid-row: 26 / span 5;
+        margin-top: 7.5%;
+    }
+
+    .image-tours-4 {
+        grid-column: 1 / span 6;
+        grid-row: 29 / span 5;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .title-tours-4 {
+        grid-column: 1 / span 6;
+        grid-row: 26 / span 1;
+    }
+
+    .text-tours-4 {
+        grid-column: 1 / span 6;
+        grid-row: 27 / span 1;
+        padding-left: 10%;
+        padding-right: 10%
+    }
+
+    .time-tours-4 {
+        grid-column: 1 / span 5;
+        grid-row: 28 / span 1;
+        padding-left: 10%;
+    }
+
+    .button-tours-4{
+        grid-column: 4 / span 3;
+        grid-row: 28 / span 1;
+        margin-top: 0%;
+    }
+}
+
+@media (max-width: 784px){
+    .square-tours {
+        grid-column: 2 / span 6;
+    }
+    
+    .text-tours {
+        grid-column: 2 / span 6;
+    }
 }
 
 
@@ -1080,6 +1315,34 @@ a, a:hover, a:focus, a:active {
     .button-support {
         grid-row: 2 / span 1;
         margin-top:25%
+    }
+    
+    .title-stories-1{
+        font-size: 2em;
+    }
+    
+    .title-stories-2{
+        font-size: 2em;
+    }
+    
+    .title-stories-3{
+        font-size: 2em;
+    }
+    
+     .stories-overlap-1 {
+    grid-template-columns: repeat(7, 1fr);
+    }
+    
+    .square-stories{
+        padding-top: 12.5%;
+    }
+    
+    .tours-overlap-1 {
+        grid-template-columns: repeat(8, 1fr);
+    }
+    
+    .title-tours{
+        font-size: 3em
     }
 }
 
@@ -1152,7 +1415,111 @@ a, a:hover, a:focus, a:active {
         grid-column: 2 / span 4;
         margin-top: 2.5%;
     }
+    
+    .button-support {
+        font-size: 0.7em;
+    }
+    
+    .stories-overlap-2 {
+        grid-template-rows: repeat(17, 1fr);
+    }
+    
+    .square-stories-1{
+        grid-row: 3 / span 3;
+        margin-top: 10%;
+    }
+    
+    .image-stories-1 {
+        grid-row: 1 / span 3; 
+        
+    }
+
+    .title-stories-1 {
+        grid-row: 2 / span 2;
+        grid-column: 1 / span 8;
+        text-align: center;
+        margin-top: 12.5%;
+        font-size: 1.5em
+    }
+
+    .text-stories-1 {
+        grid-row: 4 / span 2;
+        margin-top: 0%;
+    }
+
+    .button-stories-1{
+        grid-row: 4 / span 2;
+        grid-column: 3 /span 4;
+        margin-top: 45%;
+    }
+    
+    .square-stories-2{
+        grid-row: 9 / span 3;
+        margin-top: 10%;
+    }
+    
+    .image-stories-2 {
+        grid-row: 7 / span 3; 
+        
+    }
+
+    .title-stories-2 {
+        grid-row: 8 / span 2;
+        grid-column: 1 / span 8;
+        text-align: center;
+        margin-top: 12.5%;
+        font-size: 1.5em
+    }
+
+    .text-stories-2 {
+        grid-row: 10 / span 2;
+        margin-top: 0%;
+    }
+
+    .button-stories-2{
+        grid-row: 10 / span 2;
+        grid-column: 3 /span 4;
+        margin-top: 45%;
+    }
+    
+    .square-stories-3{
+        grid-row: 15 / span 3;
+        margin-top: 10%;
+    }
+    
+    .image-stories-3 {
+        grid-row: 13 / span 3; 
+        
+    }
+
+    .title-stories-3 {
+        grid-row: 14 / span 2;
+        grid-column: 1 / span 8;
+        text-align: center;
+        margin-top: 12.5%;
+        font-size: 1.5em
+    }
+
+    .text-stories-3 {
+        grid-row: 16 / span 2;
+        margin-top: 0%;
+    }
+
+    .button-stories-3{
+        grid-row: 16 / span 2;
+        grid-column: 3 /span 4;
+        margin-top: 45%;
+    }
+    
+    .title-text-tours{
+        font-size: 3em;
+    }
+    
+    .body-text-tours {
+        font-size: 0.8em
+    }
 }
+
 
 @media (max-width: 400px){
    .body-text {
@@ -1203,4 +1570,138 @@ a, a:hover, a:focus, a:active {
         margin-left: 10%;
         font-size: 1em
     }
+    
+    .square-support {
+        grid-column: 1 / span 7;
+        grid-row: 1 / span 2;
+        margin-top: 5%;
+        padding-right: 0%
+        
+        
+    }
+
+    .text-support{
+        grid-column: 1 / span 7;
+        grid-row: 1 / span 2;
+        margin-top: 40%;
+        margin-right: 8%;
+        margin-left: 8%
+    }
+
+    .title-support {
+        grid-column: 1 / span 7;
+        font-size: 2em;
+        padding-top: 0%;
+        text-align:center;
+    }    
+    
+    .button-support {
+        grid-column: 2 / span 4;
+        margin-top:25%
+    }
+    
+    .title-text-tours{
+        font-size: 2em;
+        margin-top: 20%;
+        margin-bottom: 0%;
+    }
+    
+    .body-text-tours {
+        margin-top: 5%
+    }
+    
+    .tours-overlap-2 {
+        grid-template-rows: repeat(24, 1fr);
+    }
+    
+    .square-tours-1 {
+        grid-row: 2 / span 3;
+        margin-top: 0%;
+    }
+    
+    .image-tours-1 {
+        grid-row: 3 / span 3;
+        margin-top: 20%
+    }
+    
+    .square-tours-2{
+        grid-row: 8 / span 3;
+        margin-top: 0%;
+    }
+    
+    .image-tours-2 {
+        grid-row: 9 / span 3;
+        margin-top: 20%
+    }
+    
+
+    .title-tours-2 {
+        grid-row: 7 / span 1;
+    }
+
+    .text-tours-2 {
+        grid-row: 8 / span 1;
+    }
+
+    .time-tours-2 {
+        grid-row: 9 / span 1;
+    }
+
+    .button-tours-2{
+        grid-row: 9 / span 1;
+    }
+
+    .square-tours-3 {
+        grid-row: 14 / span 5;
+        margin-top: 0%;
+    }
+
+    .image-tours-3 {
+        grid-row: 15 / span 5;
+        margin-top: 20%
+    }
+
+    .title-tours-3 {
+        grid-row: 13 / span 1;
+    }
+
+    .text-tours-3 {
+        grid-row: 14 / span 1;
+    }
+
+    .time-tours-3 {
+        grid-row: 15 / span 1;
+    }
+
+    .button-tours-3{
+        grid-row: 15 / span 1;
+    }
+
+    .square-tours-4 {
+        grid-row: 20 / span 5;
+        margin-top: 0%;
+    }
+
+    .image-tours-4 {
+        grid-row: 21 / span 5;
+        margin-top: 20%
+    }
+
+    .title-tours-4 {
+        grid-row: 19 / span 1;
+    }
+
+    .text-tours-4 {
+        grid-row: 20 / span 1;
+    }
+
+    .time-tours-4 {
+        grid-row: 21 / span 1;
+    }
+
+    .button-tours-4{
+        grid-row: 21 / span 1;
+    }
+    
+    
 }
