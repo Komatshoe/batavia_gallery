@@ -1,0 +1,972 @@
+@media (max-width: 1350px){
+
+    .body-text {
+        font-size: 1.25em;
+    }
+    
+    .title-text{
+        font-size: 3.5em;
+    }
+    
+    .button-text{
+        font-size: 1em
+    }
+    
+    .nav-text {
+        font-size: 0.9em;
+    }
+
+}
+    
+
+@media (min-width: 1200px){
+    .container {
+        width: 100%;
+    }
+    
+    
+}
+
+@media (max-width: 1200px){
+
+    .body-text {
+        font-size: 1em;
+    }
+    
+    .title-text{
+        font-size: 2.5em;
+    }
+    
+    .button-text{
+        font-size: 0.8em
+    }
+    
+    .nav-text {
+        font-size: 0.7em;
+    }
+    
+    .home-overlap-1 {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 1%;
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+
+    .square-hero {
+        grid-column: 2 / span 3;
+        grid-row: 1 / span 3;
+        padding-top: 0%;
+        margin-bottom:10%;
+        margin-right:20%
+    }
+
+    .title-hero {
+        font-size: 5.5em;
+        grid-column: 1 / span 7;
+        grid-row: 1 / span 1;
+    }
+
+    .text-hero {
+        font-size: 2em;
+        grid-column: 2 / span 5;
+        grid-row: 2 / span 1;
+        padding-left: 5%;
+    }
+
+    .button-hero {
+        grid-column: 2 / span 3;
+        grid-row: 3 / span 1;
+        margin-top: 0%;
+        margin-right: 10%;
+        margin-left: 10%;
+        font-size: 1.5em
+    }
+    
+    .title-stories{
+        font-size: 4em;
+    }
+    
+    .text-stories {
+        margin-top: 0%;
+    }
+    
+    .title-tours {
+        font-size: 4em;
+    }
+    
+    .text-tours {
+        margin-top: 0%;
+    }
+}
+
+@media (min-width: 992px){
+    .container {
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 912px){
+    .title-tours-1{
+        grid-column: 1 / span 12
+    }
+    
+    .title-tours-2{
+        grid-column: 1 / span 12
+    }
+    
+    .title-tours-3{
+        grid-column: 1 / span 12
+    }
+    
+    .title-tours-4{
+        grid-column: 1 / span 12
+    }
+}
+
+
+
+@media (max-width: 900px){
+    
+    .title-text{
+        font-size: 3.5em;
+    }
+    
+    .nav-text {
+        font-size: 0.5em;
+    }
+    
+    .navbar-brand {
+        padding: 2.5%;
+    }
+    
+
+    .square-hero {
+        grid-column: 2 / span 3;
+        grid-row: 1 / span 3;
+        padding-top: 0%;
+    }
+
+    .title-hero {
+        font-size: 4.5em;
+        grid-column: 1 / span 7;
+        grid-row: 1 / span 1;
+    }
+
+    .text-hero {
+        font-size: 1.5em;
+        grid-column: 2 / span 5;
+        grid-row: 2 / span 1;
+        padding-left: 5%;
+    }
+
+    .button-hero {
+        grid-column: 2 / span 3;
+        grid-row: 3 / span 1;
+        margin-top: 0%;
+        font-size: 1em
+    }
+    
+    .home-overlap-2 {
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(21, 1fr);
+}
+
+
+    .square-1 {
+        grid-column: 1 / span 7;
+        grid-row: 2 / span 4;
+        padding-top: 7.5%;
+        padding-left: 0%
+    }
+
+    .large-image-1 {
+        grid-column: 2 / span 6;
+        grid-row: 4 / span 4;
+        margin-top: 15%;
+
+    }
+
+    .small-image-1 {
+        grid-column: 1 / span 3;
+        grid-row: 6 / span 2;
+        padding-top: 0%;
+    }
+
+    .title-1 {
+        grid-column: 1 / span 7;
+        grid-row: 2 / span 1;
+        font-size: 1.5em
+    }
+
+    .text-1 {
+        grid-column: 2 / span 5;
+        grid-row: 3 / span 2;
+        padding-left: 0;
+    }
+
+    .button-1 {
+        grid-column: 2 / span 2;
+        grid-row: 4 / span 1;
+        margin-top: 10%;
+        margin-right: 0%;
+        margin-left:0%;
+        font-size: 1em
+    }
+
+    .square-2 {
+        grid-column: 1 / span 7;
+        grid-row: 9 / span 4;
+        padding-top: 7.5%;
+        padding-left: 0%
+    }
+
+    .large-image-2 {
+        grid-column: 2 / span 6;
+        grid-row: 11 / span 4;
+        margin-top: 15%;
+    }
+
+    .small-image-2 {
+         grid-column: 1 / span 3;
+        grid-row: 13 / span 2;
+        padding-top: 0%;
+    }
+
+    .title-2 {
+        grid-column: 1 / span 7;
+        grid-row: 9 / span 1;
+        font-size: 1.5em
+    }
+
+    .text-2 {
+        grid-column: 2 / span 5;
+        grid-row: 10 / span 2;
+        padding-left: 0;
+    }
+
+    .button-2 {
+        grid-column: 2 / span 2;
+        grid-row: 11 / span 1;
+        margin-top: 10%;
+        margin-right: 0%;
+        margin-left:0%;
+        font-size: 1em
+    }
+
+    .square-3 {
+        grid-column: 1 / span 7;
+        grid-row: 16 / span 4;
+        padding-top: 7.5%;
+        padding-left: 0%;
+    }
+
+    .large-image-3 {
+        grid-column: 2 / span 6;
+        grid-row: 18 / span 4;
+        margin-top: 15%;
+    }
+
+    .small-image-3 {
+        grid-column: 1 / span 3;
+        grid-row: 20 / span 2;
+        padding-top: 0%;
+    }
+
+    .title-3 {
+        grid-column: 1 / span 7;
+        grid-row: 16 / span 1;
+        font-size: 1.5em
+    }
+
+    .text-3 {
+        grid-column: 2 / span 5;
+        grid-row: 17 / span 2;
+        padding-left: 0;
+    }
+
+    .button-3 {
+        grid-column: 2 / span 2;
+        grid-row: 18 / span 1;
+        margin-top: 10%;
+        margin-right: 0%;
+        margin-left:0%;
+        font-size: 1em
+    }
+    
+    .text-support{
+        font-size: 1em;
+    }
+    
+    .title-support{
+        font-size: 2.5em
+    }
+    
+    .square-support {
+        grid-column: 2 / span 4;
+        grid-row: 1 / span 3;
+        margin-top: 20%;
+    }
+    
+    .button-support{
+        grid-column: 2 / span 4;
+        grid-row: 3 / span 1;
+    }
+    
+    .square-stories{
+        grid-column: 2 / span 7
+    }    
+
+    .text-stories{
+        grid-column: 2 / span 7;
+    }
+    
+    .stories-overlap-2 {
+        grid-template-columns: repeat(8, 1fr);
+    }
+    
+    .square-stories-2 {
+        grid-column: 1 /span 8;
+    }
+
+    .image-stories-2 {
+        grid-column: 1 / span 8;    
+    }
+
+    .title-stories-2 {
+        grid-column: 2 / span 6;
+    }
+
+    .text-stories-2 {
+        grid-column: 2 / span 6;
+    }
+
+    .button-stories-2{
+        grid-column: 2 / span 3;
+    }
+    
+    .button-stories-1{
+        grid-column: 2 / span 3;
+    }
+    
+    .button-stories-3{
+        grid-column: 2 / span 3;
+    }
+
+}
+
+
+@media (max-width: 870px){
+    .tours-overlap-2 {
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(33, 1fr);
+    }
+
+    .square-tours-1 {
+        grid-column: 1 /span 6;
+        margin-top: 7.5%;
+    }
+
+    .image-tours-1 {
+        grid-column: 1 / span 6;
+        grid-row: 4 / span 4;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .title-tours-1 {
+        grid-column: 1 / span 6;
+        grid-row: 1 / span 1;
+    }
+
+    .text-tours-1 {
+        grid-column: 1 / span 6;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+
+    .button-tours-1{
+        grid-column: 4 / span 3;
+        grid-row: 3 / span 1;
+        margin-right: 32%;
+        margin-top: 0%;
+    }
+
+
+    .square-tours-2 {
+        grid-column: 1 /span 6;
+        grid-row: 9 / span 5;
+        margin-top: 7.5%;
+    }
+
+    .image-tours-2 {
+        grid-column: 1 / span 6;
+        grid-row: 12 / span 5;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .title-tours-2 {
+        grid-column: 1 / span 6;
+        grid-row: 9 / span 1;
+    }
+
+    .text-tours-2 {
+        grid-column: 1 / span 6;
+        grid-row: 10 / span 1;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .time-tours-2 {
+        grid-row: 11 / span 1;
+    }
+
+    .button-tours-2{
+        grid-column: 4 / span 3;
+        grid-row: 11 / span 1;
+        margin-top: 0%;
+    }
+
+    .square-tours-3 {
+        grid-column: 1 /span 6;
+        grid-row: 18 / span 5;
+        margin-top: 7.5%;
+    }
+
+    .image-tours-3 {
+        grid-column: 1 / span 6;
+        grid-row: 21 / span 5;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .title-tours-3 {
+        grid-column: 1 / span 6;
+        grid-row: 18 / span 1;
+    }
+
+    .text-tours-3 {
+        grid-column: 1 / span 6;
+        grid-row: 19 / span 1;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .time-tours-3 {
+        grid-column: 1 / span 5;
+        grid-row: 20 / span 1;
+        padding-left: 10%;
+    }
+
+    .button-tours-3{
+        grid-column: 4 / span 3;
+        grid-row: 20 / span 1;
+        margin-top: 0%;
+    }
+
+    .square-tours-4 {
+        grid-column: 1 /span 6;
+        grid-row: 26 / span 5;
+        margin-top: 7.5%;
+    }
+
+    .image-tours-4 {
+        grid-column: 1 / span 6;
+        grid-row: 29 / span 5;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .title-tours-4 {
+        grid-column: 1 / span 6;
+        grid-row: 26 / span 1;
+    }
+
+    .text-tours-4 {
+        grid-column: 1 / span 6;
+        grid-row: 27 / span 1;
+        padding-left: 10%;
+        padding-right: 10%
+    }
+
+    .time-tours-4 {
+        grid-column: 1 / span 5;
+        grid-row: 28 / span 1;
+        padding-left: 10%;
+    }
+
+    .button-tours-4{
+        grid-column: 4 / span 3;
+        grid-row: 28 / span 1;
+        margin-top: 0%;
+    }
+}
+
+@media (max-width: 784px){
+    .square-tours {
+        grid-column: 2 / span 6;
+    }
+    
+    .text-tours {
+        grid-column: 2 / span 6;
+    }
+}
+
+
+@media (min-width: 768px){
+    .container {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 654px){
+   .body-text {
+        font-size: 1em;
+    }
+    
+    .title-text{
+        font-size: 1.5em;
+    }
+    
+
+    .title-hero {
+        font-size: 3.5em;
+    }
+
+    .text-hero {
+        font-size: 1.25em;
+    }
+
+    .button-hero {
+        font-size: 1em
+    }
+    
+    .learn-title{
+        font-size: 2.5em;
+    }
+    
+    .home-overlap-3 {
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+    .square-support {
+        grid-column: 2 / span 4;
+        grid-row: 1 / span 2;
+        margin-top: 5%;
+        padding-right: 10%
+        
+        
+    }
+
+    .text-support{
+        grid-column: 2 / span 6;
+        grid-row: 1 / span 2;
+        margin-top: 25%
+        
+    }
+
+    .title-support {
+        grid-column: 1 / span 7;
+        font-size: 2.5em;
+        padding-top: 0%;
+    }    
+    
+    .button-support {
+        grid-row: 2 / span 1;
+        margin-top:25%
+    }
+    
+    .title-stories-1{
+        font-size: 2em;
+    }
+    
+    .title-stories-2{
+        font-size: 2em;
+    }
+    
+    .title-stories-3{
+        font-size: 2em;
+    }
+    
+     .stories-overlap-1 {
+    grid-template-columns: repeat(7, 1fr);
+    }
+    
+    .square-stories{
+        padding-top: 12.5%;
+    }
+    
+    .tours-overlap-1 {
+        grid-template-columns: repeat(8, 1fr);
+    }
+    
+    .title-tours{
+        font-size: 3em
+    }
+}
+
+@media (max-width: 532px){
+   .body-text {
+        font-size: 0.9em;
+    }
+    
+    .title-text{
+        font-size: 2em;
+    }
+    
+    .button-text{
+        font-size: 0.9em;
+    }
+
+    .title-hero {
+        font-size: 2.8em;
+    }
+
+    .text-hero {
+        font-size: 1em;
+    }
+
+    .button-hero {
+        font-size: 0.65em;
+    }
+    
+    .square-1 {
+        padding-top: 15%;
+    }
+    
+    .text-1 {
+        grid-column: 1 / span 7;
+        padding-right: 8%;
+        padding-left: 8%;
+    }
+    
+    .button-1 {
+        grid-column: 2 / span 4;
+        margin-top: 2.5%;
+    }
+    
+    .square-2 {
+        padding-top: 15%;
+    }
+    
+    .text-2 {
+        grid-column: 1 / span 7;
+        padding-right: 8%;
+        padding-left: 8%;
+    }
+    
+    .button-2 {
+        grid-column: 2 / span 4;
+        margin-top: 2.5%;
+    }
+    
+    .square-3 {
+        padding-top: 15%;
+    }
+    
+    .text-3 {
+        grid-column: 1 / span 7;
+        padding-right: 8%;
+        padding-left: 8%;
+    }
+    
+    .button-3 {
+        grid-column: 2 / span 4;
+        margin-top: 2.5%;
+    }
+    
+    .button-support {
+        font-size: 0.7em;
+    }
+    
+    .stories-overlap-2 {
+        grid-template-rows: repeat(17, 1fr);
+    }
+    
+    .square-stories-1{
+        grid-row: 3 / span 3;
+        margin-top: 10%;
+    }
+    
+    .image-stories-1 {
+        grid-row: 1 / span 3; 
+        
+    }
+
+    .title-stories-1 {
+        grid-row: 2 / span 2;
+        grid-column: 1 / span 8;
+        text-align: center;
+        margin-top: 12.5%;
+        font-size: 1.5em
+    }
+
+    .text-stories-1 {
+        grid-row: 4 / span 2;
+        margin-top: 0%;
+    }
+
+    .button-stories-1{
+        grid-row: 4 / span 2;
+        grid-column: 3 /span 4;
+        margin-top: 45%;
+    }
+    
+    .square-stories-2{
+        grid-row: 9 / span 3;
+        margin-top: 10%;
+    }
+    
+    .image-stories-2 {
+        grid-row: 7 / span 3; 
+        
+    }
+
+    .title-stories-2 {
+        grid-row: 8 / span 2;
+        grid-column: 1 / span 8;
+        text-align: center;
+        margin-top: 12.5%;
+        font-size: 1.5em
+    }
+
+    .text-stories-2 {
+        grid-row: 10 / span 2;
+        margin-top: 0%;
+    }
+
+    .button-stories-2{
+        grid-row: 10 / span 2;
+        grid-column: 3 /span 4;
+        margin-top: 45%;
+    }
+    
+    .square-stories-3{
+        grid-row: 15 / span 3;
+        margin-top: 10%;
+    }
+    
+    .image-stories-3 {
+        grid-row: 13 / span 3; 
+        
+    }
+
+    .title-stories-3 {
+        grid-row: 14 / span 2;
+        grid-column: 1 / span 8;
+        text-align: center;
+        margin-top: 12.5%;
+        font-size: 1.5em
+    }
+
+    .text-stories-3 {
+        grid-row: 16 / span 2;
+        margin-top: 0%;
+    }
+
+    .button-stories-3{
+        grid-row: 16 / span 2;
+        grid-column: 3 /span 4;
+        margin-top: 45%;
+    }
+    
+    .title-text-tours{
+        font-size: 3em;
+    }
+    
+    .body-text-tours {
+        font-size: 0.8em
+    }
+}
+
+
+@media (max-width: 400px){
+   .body-text {
+        font-size: 0.8em;
+    }
+    
+    .title-text{
+        font-size: 1.5em;
+    }
+    
+    .home-overlap-1 {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 1%;
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+
+    .square-hero {
+        grid-column: 2 / span 5;
+        grid-row: 1 / span 3;
+        padding-top:10%;
+        margin-bottom:0%;
+        margin-right:0%
+    }
+
+    .title-hero {
+        font-size: 2.75em;
+        grid-column: 1 / span 7;
+        grid-row: 1 / span 1;
+        text-align: center;
+    }
+
+    .text-hero {
+        font-size: 1em;
+        grid-column: 2 / span 5;
+        grid-row: 1 / span 2;
+        padding-left: 5%;
+        margin-top:60%;
+    }
+
+    .button-hero {
+        grid-column: 2 / span 5;
+        grid-row: 2 / span 1;
+        margin-top: 35%;
+        margin-right: 10%;
+        margin-left: 10%;
+        font-size: 1em
+    }
+    
+    .square-support {
+        grid-column: 1 / span 7;
+        grid-row: 1 / span 2;
+        margin-top: 5%;
+        padding-right: 0%
+        
+        
+    }
+
+    .text-support{
+        grid-column: 1 / span 7;
+        grid-row: 1 / span 2;
+        margin-top: 40%;
+        margin-right: 8%;
+        margin-left: 8%
+    }
+
+    .title-support {
+        grid-column: 1 / span 7;
+        font-size: 2em;
+        padding-top: 0%;
+        text-align:center;
+    }    
+    
+    .button-support {
+        grid-column: 2 / span 4;
+        margin-top:25%
+    }
+    
+    .title-text-tours{
+        font-size: 2em;
+        margin-top: 20%;
+        margin-bottom: 0%;
+    }
+    
+    .body-text-tours {
+        margin-top: 5%
+    }
+    
+    .tours-overlap-2 {
+        grid-template-rows: repeat(24, 1fr);
+    }
+    
+    .square-tours-1 {
+        grid-row: 2 / span 3;
+        margin-top: 0%;
+    }
+    
+    .image-tours-1 {
+        grid-row: 3 / span 3;
+        margin-top: 20%
+    }
+    
+    .square-tours-2{
+        grid-row: 8 / span 3;
+        margin-top: 0%;
+    }
+    
+    .image-tours-2 {
+        grid-row: 9 / span 3;
+        margin-top: 20%
+    }
+    
+
+    .title-tours-2 {
+        grid-row: 7 / span 1;
+    }
+
+    .text-tours-2 {
+        grid-row: 8 / span 1;
+    }
+
+    .time-tours-2 {
+        grid-row: 9 / span 1;
+    }
+
+    .button-tours-2{
+        grid-row: 9 / span 1;
+    }
+
+    .square-tours-3 {
+        grid-row: 14 / span 5;
+        margin-top: 0%;
+    }
+
+    .image-tours-3 {
+        grid-row: 15 / span 5;
+        margin-top: 20%
+    }
+
+    .title-tours-3 {
+        grid-row: 13 / span 1;
+    }
+
+    .text-tours-3 {
+        grid-row: 14 / span 1;
+    }
+
+    .time-tours-3 {
+        grid-row: 15 / span 1;
+    }
+
+    .button-tours-3{
+        grid-row: 15 / span 1;
+    }
+
+    .square-tours-4 {
+        grid-row: 20 / span 5;
+        margin-top: 0%;
+    }
+
+    .image-tours-4 {
+        grid-row: 21 / span 5;
+        margin-top: 20%
+    }
+
+    .title-tours-4 {
+        grid-row: 19 / span 1;
+    }
+
+    .text-tours-4 {
+        grid-row: 20 / span 1;
+    }
+
+    .time-tours-4 {
+        grid-row: 21 / span 1;
+    }
+
+    .button-tours-4{
+        grid-row: 21 / span 1;
+    }
+    
+    
+}
