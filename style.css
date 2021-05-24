@@ -72,7 +72,7 @@ a, a:hover, a:focus, a:active {
 .navbar-inverse {
     background-color: transparent;
     background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-    border-color: transparent;
+    border: none;
     height: 100%;
 }
 
@@ -341,7 +341,6 @@ a, a:hover, a:focus, a:active {
 
 .content-footer {
     padding-top: 10%;
-    padding-bottom: 10%;
 }
 
 .title-footer {
@@ -355,7 +354,7 @@ a, a:hover, a:focus, a:active {
 
 .logos {
     align-content: center;
-    width: 25%;
+    width: 15%;
 }
 
 .button-footer{
@@ -369,6 +368,13 @@ a, a:hover, a:focus, a:active {
 .foot{
     margin-top: 100px;
     align-content: center;
+}
+
+.text-copy{
+    font-family: 'IM Fell English', serif;
+    color: rgb(178, 178, 178);
+    font-size: 0.8em;
+    text-align:center;
 }
 
 
