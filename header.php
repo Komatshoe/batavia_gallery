@@ -57,7 +57,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <img class="navbar-brand" src="images/logo.png" alt="batavia-gallery-logo">
+                    <img class="navbar-brand" src="http://206.189.45.97/~mesh14/wp-content/themes/batavia_gallery/images/logo.png" alt="batavia-gallery-logo">
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
 
