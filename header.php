@@ -64,7 +64,7 @@
                     <ul class="nav navbar-nav collapse navbar-collapse navbar-right nav-text">
                         <li><a href="index.html"> HOME</a></li>
                         <li><a href="service-page.html"> VISIT</a></li>
-                        <li><a href="blog-page.html"> EXPLORE</a></li>
+                        <li><a href="blog-page.html"> JOURNAL</a></li>
                         <li><a href="#"> SUPPORT</a></li>
                         <li><a href="#"> ABOUT</a></li>
                         <li><a href="#"> LANGUAGE</a></li>
