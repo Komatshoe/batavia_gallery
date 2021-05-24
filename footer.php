@@ -1,4 +1,4 @@
-<footer>
+ <footer>
         <div class="container-fluid footer-sec">
             <div class="container content-footer">
                 <div class="col-md-3 open-hours foot">
