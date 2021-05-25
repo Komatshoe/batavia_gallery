@@ -47,8 +47,7 @@
 </head>
 
 <body>
-    <header class="container-fluid sec1">
-
+    <header class="container-fluid sec1"<?php if ( get_field(' background-hero ') ) { echo 'style="background: url(' . get_field(' background-hero ') . ')"'; } ?>>
         <nav class="navbar navbar-inverse">
             <div class="container-fluid nav-container">
                 <div class="navbar-header">
@@ -79,14 +78,14 @@
         <div class="container-fluid hero-sec">
             <div class="home-overlap-1">
 
-                <img class="img-responsive square-hero" src="http://206.189.45.97/~mesh14/wp-content/themes/batavia_gallery/images/square-2.png" alt="ripped-brown-square">
+                <img class="img-responsive square-hero" src="<?php the_field('square-hero'); ?>" alt="ripped-brown-square">
 
-                <h1 class="title-hero">Surviving the Batavia</h1>
+                <h1 class="title-hero"><?php the_field('title-hero'); ?></h1>
 
-                <p class=" text-hero">Discover the story of mutiny and murder that surrounded the Batavia Shipwreck </p>
+                <p class=" text-hero"><?php the_field('text-hero'); ?></p>
 
                 <div class="container-fluid button-hero">
-                    <a href="service-page.html" class="button-text">PLAN YOUR VISIT</a>
+                    <a href="<?php the_field('button-hero'); ?>" class="button-text">PLAN YOUR VISIT</a>
                 </div>
 
 
