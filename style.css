@@ -107,6 +107,13 @@ a, a:hover, a:focus, a:active {
     background-size: cover;
 }
 
+.small-stories {
+    width: 100%;
+    background-image: url(images/stories-small-headerbg.png);
+    background-size: cover;
+    height: 40vh;
+}
+
 .home-overlap-1 {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -374,7 +381,7 @@ a, a:hover, a:focus, a:active {
     font-family: 'IM Fell English', serif;
     color: rgb(178, 178, 178);
     font-size: 0.8em;
-    text-align:center;
+    text-align:  center;
 }
 
 
