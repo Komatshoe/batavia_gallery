@@ -13,79 +13,79 @@
 
 
                     <div class="square-1">
-<!--                        square-->
+                        <img class="img-responsive" src="<?php the_field('square-1'); ?>" alt="ripped-brown-square">
                     </div>
 
                     <div class="large-image-1">
-<!--                        big-image-->
+                        <img class="img-responsive" src="<?php the_field('large-image-1'); ?>" alt="museum-artifacts-on-display">
                     </div>
 
                     <div class="small-image-1">
-<!--                        small-image-->
+                        <img class="img-responsive" src="<?php the_field('small-image-1'); ?>" alt="museum-artifacts-on-display">
                     </div>
 
                     <div class="title-1">
-<!--                        New Artifacts-->
+                        <h3 class="title-text"><?php the_field('title-1'); ?></h3>
                     </div>
 
                     <div class="text-1">
-<!--                        text-->
+                        <p class="body-text"><?php the_field('text-1'); ?></p>
                     </div>
 
                     <div class="container-fluid button-1">
-<!--                        button-->
+                        <a href="blog-page.html" class="button-text" src="<?php the_field('button-1'); ?>">Learn More</a>
                     </div>
 
 
 
                     <div class="square-2">
-<!--                        square-->
+                        <img class="img-responsive" src="<?php the_field('square-2'); ?>" alt="ripped-brown-square">
                     </div>
 
                     <div class="large-image-2">
-<!--                        big-image-->
+                        <img class="img-responsive" src="<?php the_field('large-image-2'); ?>" alt="museum-artifacts-on-display">
                     </div>
 
                     <div class="small-image-2">
-<!--                        small-image-->
+                        <img class="img-responsive" src="<?php the_field('small-image-2'); ?>" alt="museum-artifacts-on-display">
                     </div>
 
                     <div class="title-2">
-<!--                        New Artifacts-->
+                        <h3 class="title-text"><?php the_field('title-2'); ?></h3>
                     </div>
 
                     <div class="text-2">
-<!--                        text-->
+                        <p class="body-text"><?php the_field('text-2'); ?></p>
                     </div>
 
                     <div class="container-fluid button-2">
-<!--                        button-->
+                        <a href="blog-page.html" class="button-text" src="<?php the_field('button-2'); ?>">Learn More</a>
                     </div>
 
 
 
                     <div class="square-3">
-<!--                        square-->
+                        <img class="img-responsive" src="<?php the_field('square-3'); ?>" alt="ripped-brown-square">
                     </div>
 
                     <div class="large-image-3">
-<!--                        big-image-->
+                        <img class="img-responsive" src="<?php the_field('large-image-3'); ?>" alt="museum-artifacts-on-display">
                     </div>
 
                     <div class="small-image-3">
-<!--                        small-image-->
+                        <img class="img-responsive" src="<?php the_field('small-image-3'); ?>" alt="museum-artifacts-on-display">
                     </div>
 
                     <div class="title-3">
-<!--                        New Artifacts-->
+                        <h3 class="title-text"><?php the_field('title-3'); ?></h3>
                     </div>
 
                     <div class="text-3">
-<!--                        text-->
+                        <p class="body-text"><?php the_field('text-3'); ?></p>
                     </div>
 
                     <div class="container-fluid button-3">
-<!--                        button-->
+                        <a href="blog-page.html" class="button-text" src="<?php the_field('button-3'); ?>">Learn More</a>
                     </div>
 
                 </div>
@@ -97,17 +97,15 @@
         <div class="container-fluid support-sec">
             <div class="home-overlap-3">
 
-<!--                square-->
+                <img class="img-responsive square-support" src="http://206.189.45.97/~mesh14/wp-content/themes/batavia_gallery/images/square-2.png" alt="ripped-brown-square">
 
-<!--                <h2 class='title-text title-support'>Support the Batavia</h2>-->
+                <h2 class='title-text title-support'>Support the Batavia</h2>
 
-<!--
                 <p class="text-support body-text">Want to become apart of the Batavia crew today?
 Helps us change lives by joining our membership and volunteering programs. </p>
--->
                 
                 <div class="container-fluid button-support">
-<!--                    button-->
+                    <a href="#" class="button-text">JOIN THE CREW</a>
                 </div>
 
             </div>
