@@ -49,15 +49,15 @@
                     <!--   spacing    -->
                 </div>
                 
-                <div class="text-copy col-xs-4 foot">
+                <div class="text-copy col-sm-4 foot">
                     <a> Privacy Policy</a>
                 </div>
                 
-                <div class="text-copy col-xs-4 foot">
+                <div class="text-copy col-sm-4 foot">
                     <a>Copyright &amp; Disclamer</a>
                 </div>
                 
-                <div class="text-copy col-xs-4 foot">
+                <div class="text-copy col-sm-4 foot">
                     <p>&copy; Batavia Gallery</p>
                     
                 </div>
