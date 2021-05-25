@@ -61,14 +61,16 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
 
-                    <ul class="nav navbar-nav collapse navbar-collapse navbar-right nav-text">
-                        <li><a href="index.html"> HOME</a></li>
-                        <li><a href="service-page.html"> VISIT</a></li>
-                        <li><a href="blog-page.html"> JOURNAL</a></li>
-                        <li><a href="#"> SUPPORT</a></li>
-                        <li><a href="#"> ABOUT</a></li>
-                        <li><a href="#"> LANGUAGE</a></li>
+                    <ul class="nav navbar-nav navbar-right">
+<?php wp_nav_menu(array(
+        'menu' => 'Batavia Top Menu',
+        'items_wrap'=>'%3$s',
+        'container' => false,
+        'list_item_class' => "nav-item",
+        'link_class' => "nav-link",
+        )); ?>
                     </ul>
+
                 </div>
             </div>
         </nav>
