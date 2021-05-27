@@ -4,7 +4,7 @@ Template Name: New Artifacts
 */
 ?>
 <?php include (TEMPLATEPATH . '/stories_small_header.php');  /* Tells WordPress to include the smaller header header.php */ ?> 
-<div class="container-fluid maincontainer">
+<div class="container-fluid page-container">
     <div class="container">
         <div class="row">
             <section class="col-sm-7 maintext">				
@@ -13,7 +13,7 @@ Template Name: New Artifacts
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			
 <div class="post single-page">
-		<h3 class="posttitle" id="post-<?php the_ID(); ?>"><?php the_title(); ?></h3>
+		<h3 class="title-text" id="post-<?php the_ID(); ?>"><?php the_title(); ?></h3>
 
 		<div class="postcontent">
 			<?php /*?><?php the_post_thumbnail(array(150,150), array ('class' => 'alignright')); ?><?php */?>
