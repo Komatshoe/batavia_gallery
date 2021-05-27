@@ -60,7 +60,7 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
 
-                    <ul class="nav navbar-nav navbar-right">
+<ul class="nav navbar-nav collapse navbar-collapse navbar-right nav-text">
 <?php wp_nav_menu(array(
         'menu' => 'Batavia Top Menu',
         'items_wrap'=>'%3$s',
@@ -68,7 +68,7 @@
         'list_item_class' => "nav-item",
         'link_class' => "nav-link",
         )); ?>
-                    </ul>
+</ul>
 
                 </div>
             </div>
