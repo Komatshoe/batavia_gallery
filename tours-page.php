@@ -3,7 +3,7 @@
     Template Name: Tours page
     */
     ?>
-<?php include (TEMPLATEPATH . '/tours_header.php');  /* Tells WordPress to include the smaller header header.php */ ?> 
+<?php get_header(TEMPLATEPATH . '/tours_header.php');  /* Tells WordPress to include the smaller header header.php */ ?>
 <section>
         <div class="container-fluid tours-sec">
             <div class="container tours-overlap-2">
