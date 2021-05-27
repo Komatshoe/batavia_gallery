@@ -3,7 +3,7 @@
 Template Name: Tours
 */
 ?>
-<?php include (TEMPLATEPATH . '/tours_small_header.php');  /* Tells WordPress to include the smaller header header.php */ ?> 
+<?php include (TEMPLATEPATH . '/tours_small_header.php');  /* Tells WordPress to include the smaller header header.php */ ?>
 <section>
 <div class="container-fluid maincontainer page-container">
     <div class="container">
