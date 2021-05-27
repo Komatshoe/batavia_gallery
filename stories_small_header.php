@@ -74,16 +74,6 @@
             </div>
         </nav>
 
-
-        <div class="container-fluid hero-sec">
-            <div class="home-overlap-1">
-
-                
-
-
-            </div>
-        </div>
-
     </header>
 
 
