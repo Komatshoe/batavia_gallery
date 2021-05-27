@@ -114,6 +114,13 @@ a, a:hover, a:focus, a:active {
     height: 40vh;
 }
 
+.small-stories {
+    width: 100%;
+    background-image: url(images/tours-small-headerbg.png);
+    background-size: cover;
+    height: 40vh;
+}
+
 .home-overlap-1 {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -720,4 +727,10 @@ a, a:hover, a:focus, a:active {
     grid-row: 25 / span 1;
     margin-right: 32%;
     margin-top: 10%;
+}
+
+.page-container{
+    background-color: black;
+    padding-bottom: 15%;
+    padding-top: 15%;    
 }
