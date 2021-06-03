@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Bootstrap Example</title>
+    <title>Batavia Stories Posts</title>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
         
@@ -75,8 +75,3 @@
         </nav>
 
     </header>
-
-
-</body>
-
-</html>
