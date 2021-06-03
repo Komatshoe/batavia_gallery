@@ -80,7 +80,7 @@
                     <img class="img-responsive" src="<?php the_field('square-stories'); ?>" alt="ripped-brown-square">
                 </div>
                 
-                <h2 class="title-stories"><?php the_field('title-stories'); ?></h2>
+                <h2 class="title-stories animated fadeInLeft"><?php the_field('title-stories'); ?></h2>
                 
                 <div class="text-stories">
                     <p class="body-text"><?php the_field('text-stories'); ?></p>
