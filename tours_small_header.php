@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Bootstrap Example</title>
+    <title>Batavia Gallery Tour Pages</title>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
         
@@ -73,9 +73,5 @@
                 </div>
             </div>
         </nav>
+
     </header>
-
-
-</body>
-
-</html>
