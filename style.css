@@ -114,7 +114,7 @@ a, a:hover, a:focus, a:active {
     height: 40vh;
 }
 
-.small-stories {
+.small-tours {
     width: 100%;
     background-image: url(images/tours-small-headerbg.png);
     background-size: cover;
@@ -465,7 +465,7 @@ a, a:hover, a:focus, a:active {
 }
 
 .button-stories-1{
-    grid-column: 2 / span 2;
+    grid-column: 2 / span 3;
     grid-row: 6 / span 1;
 }
 
@@ -492,7 +492,7 @@ a, a:hover, a:focus, a:active {
 }
 
 .button-stories-2{
-    grid-column: 6 / span 2;
+    grid-column: 6 / span 3;
     grid-row: 13 / span 1;
 }
 
@@ -519,7 +519,7 @@ a, a:hover, a:focus, a:active {
 }
 
 .button-stories-3{
-    grid-column: 2 / span 2;
+    grid-column: 2 / span 3;
     grid-row: 20 / span 1;
 }
 
@@ -733,4 +733,13 @@ a, a:hover, a:focus, a:active {
     background-color: black;
     padding-bottom: 15%;
     padding-top: 15%;    
+}
+
+.post-container{
+    background-color: black;
+    padding-top: 15%;    
+}
+
+.postcontent{
+    padding-bottom: 15%;
 }
