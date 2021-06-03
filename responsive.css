@@ -516,6 +516,13 @@
     }
 }
 
+@media (max-width: 767px) {
+  .navbar-collapse
+    {
+        background-color:black;
+    }
+}
+
 
 @media (min-width: 768px){
     .container {
