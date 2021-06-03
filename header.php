@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Bootstrap Example</title>
+    <title>Batavia Gallery</title>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
         
@@ -43,6 +43,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@1&display=swap" rel="stylesheet">
     
+    
 <?php wp_head(); ?>
 </head>
 
@@ -80,9 +81,9 @@
 
                 <img class="img-responsive square-hero" src="<?php the_field('square-hero'); ?>" alt="ripped-brown-square">
 
-                <h1 class="title-hero"><?php the_field('title-hero'); ?></h1>
+                <h1 class="title-hero animated fadeInLeft"><?php the_field('title-hero'); ?></h1>
 
-                <p class=" text-hero"><?php the_field('text-hero'); ?></p>
+                <p class=" text-hero animated fadeInLeft"><?php the_field('text-hero'); ?></p>
 
                 <div class="container-fluid button-hero">
                     <a href="<?php the_field('button-hero'); ?>" class="button-text">PLAN YOUR VISIT</a>
