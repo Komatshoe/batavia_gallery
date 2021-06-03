@@ -11,7 +11,7 @@ Template Name: Tours page content
                     <img class="img-responsive" src="<?php the_field('square-tours-1'); ?>" alt="ripped-brown-square">
                 </div>
                 
-                <div class="image-tours-1">
+                <div class="image-tours-1 wow fadeInRight">
                     <img class="img-responsive" src="<?php the_field('tour-image-1'); ?>" alt="museum-display">
                 </div>
                 
@@ -23,9 +23,7 @@ Template Name: Tours page content
                     <p class="body-text-tours"><?php the_field('text-tours-1'); ?></p>
                 </div>
                 
-                <div class="time-tours-1"> 
-                    <p class="body-text"><?php the_field('time-tours-1'); ?></p>
-                </div>
+                <div class="time-tours-1 body-text"><?php the_field('time-tours-1'); ?></div>
                 
                 <div class="container-fluid button-tours-1">
                         <a href="<?php the_field('button-tours-1'); ?>" class="button-text">BOOK NOW</a>
@@ -37,7 +35,7 @@ Template Name: Tours page content
                     <img class="img-responsive" src="<?php the_field('square-tours-2'); ?>" alt="ripped-brown-square">
                 </div>
                 
-                <div class="image-tours-2">
+                <div class="image-tours-2 wow fadeInRight">
                     <img class="img-responsive" src="<?php the_field('tour-image-2'); ?>" alt="woman-looking-at-museum-display">
                 </div>
                 
@@ -50,9 +48,7 @@ Template Name: Tours page content
                 </div>
                 
 
-                <div class="time-tours-2"> 
-                    <p class="body-text"><?php the_field('time-tours-2'); ?></p>
-                </div>
+                <div class="time-tours-2 body-text"><?php the_field('time-tours-2'); ?></div>
                 
                 <div class="container-fluid button-tours-2">
                         <a href="<?php the_field('button-tours-2'); ?>" class="button-text">BOOK NOW</a>
@@ -65,7 +61,7 @@ Template Name: Tours page content
                     <img class="img-responsive" src="<?php the_field('square-tours-3'); ?>" alt="ripped-brown-square">
                 </div>
                 
-                <div class="image-tours-3">
+                <div class="image-tours-3 wow fadeInRight">
                     <img class="img-responsive" src="<?php the_field('tour-image-3'); ?>" alt="woman-looking-at-museum-display">
                 </div>
                 
@@ -77,9 +73,7 @@ Template Name: Tours page content
                     <p class="body-text-tours"><?php the_field('text-tours-3'); ?></p>
                 </div>
                 
-                <div class="time-tours-3"> 
-                    <p class="body-text"><?php the_field('time-tours-3'); ?></p>
-                </div>
+                <div class="time-tours-3 body-text"><?php the_field('time-tours-3'); ?></div>
                 
                 <div class="container-fluid button-tours-3">
                         <a href="<?php the_field('button-tours-3'); ?>" class="button-text">BOOK NOW</a>
@@ -91,7 +85,7 @@ Template Name: Tours page content
                     <img class="img-responsive" src="<?php the_field('square-tours-4'); ?>" alt="ripped-brown-square">
                 </div>
                 
-                <div class="image-tours-4">
+                <div class="image-tours-4 wow fadeInRight">
                     <img class="img-responsive" src="<?php the_field('tour-image-4'); ?>" alt="woman-kneeling-holding-broken-jug">
                 </div>
                 
@@ -103,9 +97,7 @@ Template Name: Tours page content
                     <p class="body-text-tours"><?php the_field('text-tours-4'); ?></p>
                 </div>
                 
-                <div class="time-tours-4"> 
-                    <p class="body-text"><?php the_field('time-tours-4'); ?></p>
-                </div>
+                <div class="time-tours-4 body-text"><?php the_field('time-tours-4'); ?></div>
                 
                 <div class="container-fluid button-tours-4">
                         <a href="<?php the_field('button-tours-4'); ?>" class="button-text">BOOK NOW</a>
