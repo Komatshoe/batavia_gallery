@@ -398,6 +398,7 @@ a, a:hover, a:focus, a:active {
 .stories-sec-hero {
     background-image: url(images/stories-sec-background.png);
     background-size: cover;
+    background-color: black;
 }
 
 .stories-overlap-1 {
@@ -530,6 +531,7 @@ a, a:hover, a:focus, a:active {
 .tours-sec-hero {
     background-image: url(images/tour-sec-background.png);
     background-size: cover;
+    background-color: black;
 }
 
 .tours-overlap-1 {
@@ -742,4 +744,25 @@ a, a:hover, a:focus, a:active {
 
 .postcontent{
     padding-bottom: 15%;
+}
+
+.small-language {
+    width: 100%;
+    background-image: url(images/language-background.png);
+    background-size: cover;
+    height: 40vh;
+}
+
+.small-about {
+    width: 100%;
+    background-image: url(images/about-background.png);
+    background-size: cover;
+    height: 40vh;
+}
+
+.small-support {
+    width: 100%;
+    background-image: url(images/support-background.png);
+    background-size: cover;
+    height: 40vh;
 }
