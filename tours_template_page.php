@@ -16,7 +16,7 @@ Template Name: Tours
 <div class="post single-page">
 		<h3 class="posttitle title-text" id="post-<?php the_ID(); ?>"><?php the_title(); ?></h3>
 
-		<div class="postcontent">
+		<div class="postcontent body-text">
 			<?php /*?><?php the_post_thumbnail(array(150,150), array ('class' => 'alignright')); ?><?php */?>
 			<?php the_content(); ?>
 		<?php wp_link_pages(array('before' => '<p><strong>Pages:</strong>', 'after' => '</p>')); ?>
