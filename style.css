@@ -766,3 +766,11 @@ a, a:hover, a:focus, a:active {
     background-size: cover;
     height: 40vh;
 }
+
+.navbar-inverse .navbar-toggle {
+    border: none;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: rgb(248, 182, 94);
+}
